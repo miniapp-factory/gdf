@@ -74,7 +74,7 @@ export function SlotMachine() {
           ))
         )}
       </div>
-      <Button onClick={spin} disabled={spinning} variant="primary">
+      <Button onClick={spin} disabled={spinning} variant="default">
         {spinning ? "Spinning..." : "Spin"}
       </Button>
       {win && (
